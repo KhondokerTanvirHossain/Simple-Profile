@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.page {
+/*width: 100%;
+  height: 100%;*/
+  margin: 0 auto;
+  color: #414141;
+}
+.menu {
+  height: 200px;
+  background-color: #414141;
+  margin-top: 10px;
+  padding-top: 50px;
+  color: white;
+	
+}
+.menu-box{
+	margin: auto;
+	/*width: 70%;*/
+	margin-right: 50px;
+	margin-top: 20px;
+	padding-left: 350px;
+}
+ul{
+	display: flex;
+	list-style: none;
+}
+button{
+	float: right;
+	
+}
+.menu-button{
+	background-color: white;
+  	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 800;
+	color: #414141;
+	padding: 20px;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+}
+.menu-button:hover{
+	color: white;
+	background: #414141;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+.sidebar {
+	float: left;
+	width: 270px;
+	height: 580px;
+	background-color: #f4f6f6;    /* Red */
+	margin-top: -130px;
+	padding-left: : 500px;
+}
+.picture{
+	float : initial;
+	width: 270px;
+	height:270px;
+	background-color: white;
+	border: solid white;
+	padding-left: 2px;
+}
+.sidebar-box{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.sidebar-box-left{
+	display: flex;
+	font-size: 20px;
+	padding: 10px;
+}
+.sidebar-box-left p {
+	padding-left: 10px;	
+}
+.sidebar-box-right{
+
+	font-size: 18px;
+	padding: 10px;
+	font-weight: 700;
+}
+.sidebar-box-right p {
+	float: right;
+	padding-left: 10px;
+	padding-top: 10px;	
+}
+.sidebar-box-right img {
+	padding-left: 10px;
+}
+.content {
+  height: 500px;
+  background-color: #f4f6f6;    /* Yellow */
+  padding-left: 50px;
+}
+.content-h1{
+	padding-left: 300px;
+	padding-top: 70px;
+	margin-right: 80px;
+	height: 150px;
+}
+.content-box{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1 fr;
+	padding-left: 80px;
+	/*padding: 20px 20px 20px 80px;*/
+	height: 70px;
+	font-size: 20px;
+}
+.footer {
+  height: 200px;
+  background-color: #f4f6f6; 
+  padding-left: 300px;
+  margin-top: 50px;
+}
+.footer-box{
+	height: 70px;
+}
