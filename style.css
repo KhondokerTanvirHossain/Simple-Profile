@@ -2,13 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 
 }
 .page {
-/*width: 100%;
-  height: 100%;*/
+  width: 100%;
+  height: 100%;
   margin: 0 auto;
   color: #414141;
+  background-color: #f1f1f1;
 }
 .menu {
   height: 200px;
@@ -28,6 +30,10 @@
 ul{
 	display: flex;
 	list-style: none;
+}
+li img{
+	margin-left: 4px;
+	margin-right: 4px;
 }
 button{
 	float: right;
@@ -57,9 +63,9 @@ button{
 .sidebar {
 	float: left;
 	width: 270px;
-	height: 580px;
-	background-color: #f4f6f6;    /* Red */
-	margin-top: -130px;
+	height: 700px;
+	background-color: #f1f1f1;
+	margin-top: -200px;
 	padding-left: : 500px;
 }
 .picture{
@@ -73,6 +79,7 @@ button{
 .sidebar-box{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	height: 80px;
 }
 .sidebar-box-left{
 	display: flex;
@@ -97,15 +104,18 @@ button{
 	padding-left: 10px;
 }
 .content {
-  height: 500px;
-  background-color: #f4f6f6;    /* Yellow */
-  padding-left: 50px;
+	padding-left: 350px;
+	padding-top: 50px;
+    height: 100%;
+    background-color: #f1f1f1; 
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .content-h1{
-	padding-left: 300px;
-	padding-top: 70px;
+	padding-top: 20px;
+	padding-left: 50px;
 	margin-right: 80px;
-	height: 150px;
+	height: 80px;
 }
 .content-box{
 	display: grid;
@@ -116,9 +126,14 @@ button{
 	height: 70px;
 	font-size: 20px;
 }
+.cover{
+	background-color: white;
+	margin-left: 300px;
+	height: 400px;
+}
 .footer {
   height: 200px;
-  background-color: #f4f6f6; 
+  background-color: #f1f1f1; 
   padding-left: 300px;
   margin-top: 50px;
 }
